@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1030px;
+  margin: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: 30px;
+}
+/* header */
+.header {
+  width: 100%;
+}
+
+.logo {
+  width: 300px;
+}
+.logo img {
+  width: 100%;
+}
+.select {
+  display: none;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 10pt;
+  text-transform: none;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #666;
+  width: 100%;
+}
+
+nav {
+  font-size: 10pt;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+nav ul {
+  display: flex;
+  width: 100%;
+  align-items: right;
+  position: relative;
+}
+nav ul li {
+  list-style: none;
+  margin: 0px 0px;
+  background: #fff
+    url(https://www.eilj.com/wp-content/themes/eilj50/images/catnav-bg.png)
+    bottom left repeat-x;
+  border-radius: 1px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  width: auto;
+  box-sizing: border-box;
+}
+nav ul .li {
+  padding: 10px 93px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #3f9cce;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 35px;
+  box-sizing: border-box;
+}
+
+/* content */
+#content {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+#content .left_content {
+  width: 30%;
+}
+
+#content .right_content {
+  width: 69.625%;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+/* css for right_content */
+
+.title {
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 6px 15px;
+  border: 1px solid #ebebeb;
+  border-bottom: 0;
+  background: #fff
+    url(https://www.eilj.com/wp-content/themes/eilj50/images/catnav-bg.png)
+    bottom left repeat-x;
+}
+.right_content .bottom {
+  padding: 15px;
+  border: 1px solid #ebebeb;
+}
+.right_content .bottom h2 {
+  border-bottom: 1px dashed #ddd;
+  color: #333;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.right_content .bottom p {
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+.right_content .bottom a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  color: #336699;
+}
+.right_content .page_2 {
+  margin-top: 20px;
+}
+.page_2 .heading a {
+  text-decoration: none;
+  color: #336699;
+  font-size: 14px;
+  font-weight: 700;
+}
+.border {
+  padding: 15px;
+  border: 1px solid #ebebeb;
+}
+.right_content .col_1 a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+p {
+  font-size: 12px;
+  font-weight: 300;
+}
+.col_1 .read_more a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 7px 10px;
+  color: #fff;
+}
+.read_more {
+  margin: 20px 0;
+}
+
+.search input[type="search"] {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none !important;
+  font-weight: normal !important;
+  padding: 7px 10px;
+  font-size: 11px;
+  color: #bbb;
+  margin: 0 3px 0 0;
+  display: inline;
+  width: 160px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  border-radius: 4px;
+  font-weight: 300;
+}
+
+.search input[type="submit"] {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none !important;
+  font-weight: normal !important;
+  padding: 7px 10px;
+  font-size: 11px;
+  color: #fff;
+  margin: 0 3px 0 0;
+  display: inline;
+
+  border-radius: 4px;
+  font-weight: 300;
+}
+.page_2 .border {
+  margin-top: 0;
+}
+
+/* ####################  left_content ######################## */
+
+.form {
+  margin-bottom: 20px;
+}
+.col_2 {
+  margin-top: 0px;
+}
+.col_2 h2 {
+  line-height: 1.5em;
+  font-size: 13px;
+  color: #333;
+  letter-spacing: 1.5px;
+}
+.col_2 span {
+  color: #333333;
+  font-weight: 300;
+}
+.col_3,
+.col_4,
+.col_5,
+.col_6 {
+  margin-top: 20px;
+}
+.col_6 {
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+}
+.index .border {
+  padding: 5px;
+}
+.index .border a {
+  margin-left: 5px;
+}
+
+.index .border li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 2px;
+  padding-left: 18px;
+  background: url(../images/icon_2.png) 0 1px no-repeat;
+}
+.left_content .col_5 {
+  border: 1px solid #ebebeb;
+}
+
+.left_content .col_5 img {
+  width: 80%;
+  border: 0px solid #333;
+  margin: 2px 2px;
+}
+
+.btn {
+  background: #336699;
+  border: 1px solid #336699;
+}
+.btn:hover {
+  background: #333;
+  border: 1px solid #333;
+}
+
+/* ######################### footer ############################ */
+#footer {
+  background: #336699;
+  color: #ccc;
+  font-size: 14px;
+  padding: 10px 0 20px;
+  text-align: center;
+}
+.footer_1 {
+  margin-bottom: 10px;
+}
+.footer_1 a {
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+.footer_2 a {
+  font-size: 12px;
+  font-family: arial;
+  text-transform: none;
+  font-weight: normal;
+  color: #ccc;
+  margin-left: 10px;
+}
+.footer_3 {
+  margin-top: 10px;
+}
+
+/* ############################### Editorial Team css ################ */
+table {
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  width: 100%;
+  overflow: hidden;
+}
+tbody {
+  width: 100%;
+}
+.bottom table tr {
+  background: #f5f5f5;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 300;
+}
+.bottom table tr td strong {
+  font-weight: 500;
+}
+
+.bottom table td {
+  border: 1px solid #fff;
+  padding: 10px;
+}
+
+.border a span {
+  margin-left: 5px;
+}
+/* ############### Publication Ethics ############## */
+
+.entery ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 2px;
+  padding-left: 18px;
+  background: url(../images/icon_2.png) 0 1px no-repeat;
+  font-size: 9pt;
+  font-weight: 400;
+}
+ul li {
+  font-size: 9pt;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.entry ul {
+  margin-left: 18px;
+}
+.entry h4 {
+  font-size: 12pt;
+}
+.right_content .bottom .entry p {
+  font-size: 9pt;
+  font-weight: 400;
+}
+
+.right_content .bottom .entry a {
+  outline: none;
+  text-decoration: none;
+  color: #336699;
+  font-size: 9pt;
+  font-weight: 400;
+}
+/* ############### Submission Guidelines ############## */
+
+.right_content .bottom .entry ol {
+  margin-left: 18px;
+}
+.right_content .bottom .entry ol li {
+  font-size: 9pt;
+  font-weight: 400;
+}
+
+.right_content .bottom .entry strong {
+  font-weight: 500;
+}
+/* ############### Submit an Article ############## */
+h3 {
+  color: #333;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.title_2 h3 {
+  color: #336699;
+}
+.right_content .page_1 .bottom .read_more a {
+  color: #fff;
+  padding: 5px 5px;
+}
+/* ############### Introduction ############## */
+.right_content .bottom .list p {
+  padding: 0;
+}
+
+/* m */
+@media only screen and (max-width: 1043px) {
+  .container #content {
+    display: flex;
+
+    flex-direction: column-reverse;
+  }
+  nav ul {
+    display: none;
+  }
+  .li {
+    display: none;
+  }
+
+  .select {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 10pt;
+    text-transform: none;
+    border: 1px solid #ddd;
+    background: #fff;
+    color: #666;
+    width: 100%;
+  }
+
+  .container #content .right_content {
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+  }
+  .container #content .right_content tr {
+    font-size: 11px;
+  }
+  ul li {
+    font-size: 10pt;
+  }
+  .container .right_content .bottom .entry ol li {
+    font-size: 10pt;
+  }
+  .container .right_content .bottom .entry p {
+    font-size: 11pt;
+  }
+
+  .left_content {
+    width: 100% !important;
+  }
+  .left_content .col_5 img {
+    width: 300px !important;
+  }
+}
+/* ############### Submit an Article Standard ########################## */
+.input {
+  background-color: #fff;
+  color: #000;
+  width: 94%;
+  padding: 9px;
+  border-radius: 3px;
+  border: 1px solid #a9a9a9;
+}
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+}
+.contents {
+  display: inline-block;
+  margin: 0 0 0 1em;
+}
+b {
+  font-weight: 500;
+}
+input[type="SUBMIT"] {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #a9a9a9;
+  font-weight: 300;
+  cursor: not-allowed;
+}
